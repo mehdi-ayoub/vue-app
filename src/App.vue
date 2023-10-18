@@ -8,17 +8,25 @@
   <div class="components">
     <HeaderApp class="first-component"/>
     <ConditionalComp/>
+    <conditionalComp2/>
+    <TextareaCounting/>
+    <ChangeInput/>
+    <ClickModelConditional/>
   </div>
 </template>
 
 <script>
 import HeaderApp from './components/HeaderApp.vue'
 import ConditionalComp from './components/ConditionalComp.vue';
+import ConditionalComp2 from './components/ConditionalComp2.vue'
+import TextareaCounting from './components/TextareaCounting.vue'
+import ChangeInput from './components/ChangeInput.vue'
+import ClickModelConditional from './components/ClickModelConditional.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderApp, ConditionalComp
+    HeaderApp, ConditionalComp, ConditionalComp2, TextareaCounting, ChangeInput, ClickModelConditional
   }
 }
 </script>
@@ -55,6 +63,7 @@ html, body {
   flex-direction: row;
   align-items: center;
   margin-right: 50px;
+  flex-wrap: wrap;
 }
 
 </style>

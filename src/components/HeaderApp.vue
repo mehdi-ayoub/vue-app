@@ -40,7 +40,8 @@ export default {
   .age-increase {
     display: flex;
     flex-direction: column;
-    width: max-content;
+    width: 500px;
+    height: 300px;
     margin: 20px 50px 20px 40px;
     border: 1px solid black;
     padding: 30px;
