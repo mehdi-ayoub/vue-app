@@ -1,3 +1,4 @@
+
 <template>
   <div class="age-increase">
     <h1 class="title-1"> All Together </h1>
@@ -6,6 +7,7 @@
       <span v-if="showcontent"> Hide content </span>
       <span v-else> Show Content </span>
     </button>
+
 
     <div class="students" v-if="showcontent">
       <h2> {{ school[0].student }} - {{ school[0].classname }} - {{ school[0].age }} <input type="text" v-model="school[0].student">  </h2>
